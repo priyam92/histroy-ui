@@ -1,0 +1,131 @@
+<head>
+
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<link
+	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js">
+
+<script src="https://momentjs.com/downloads/moment.js"></script>
+<script
+	src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script
+	src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+<html>
+
+<style>
+.date {
+	
+}
+</style>
+</head>
+<body>
+	<div class="date">
+		<from> <lable> from</lable> <input type="date" id="date-input"
+			name="fromDate"> <label>To</label> <input type="date"
+			name="toDate"> </from>
+		 <button id="Search Button">Search</button>
+	
+	</div>
+	
+	<div class="table container">
+		<div class="table-responsive">
+			<table class="table table-striped">
+				<thead>
+					<tr class="bg-secondary">
+						<th>Date&Time</th>
+						<th>project</th>
+						<th>Client</th>
+						<th>Status</th>
+						<th>Efforts</th>
+						<th>Task</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td><div>
+								<span class="">Monday</span>
+								<div id="demo"></div>
+							</div></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td><lable></td>
+						<td><lable></td>
+					</tr>
+					<tr>
+						<td><div>
+								<span class="">tuesday</span>
+								<div id="demo"></div>
+							</div></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td><div>
+								<span class="">wedday</span>
+								<div id="demo"></div>
+							</div></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td><lable></td>
+						<td><label></td>
+					</tr>
+					<tr>
+						<td><div>
+								<span class="">thuday</span>
+								<div id="demo"></div>
+							</div></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td><lable></td>
+						<td><lable></td>
+					</tr>
+					<tr>
+						<td><div>
+								<span class="">friday</span>
+								<div id="demo"></div>
+							</div></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td><label></td>
+						<td><label></td>
+					</tr>
+					<tr>
+						<td><div>
+								<span class="">satday</span>
+								<div id="demo"></div>
+							</div></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td><label></td>
+						<td><lable></td>
+					</tr>
+					</tbody>
+					</table>
+					</div>
+					</div>
+					
+					<!-- <script>
+						(function() {
+							$('#submit')
+									.on('click',
+						s					function() {
+												var date = new Date($(
+														'#date-input').val());
+												day = date.getDate();
+												month = date.getMonth() + 1;
+												year = date.getFullYear();
+												// alert([day, month, year].join('/'));
+												document.getElementById("demo").innerHTML = [
+														day, month, year ]
+														.join('/');
+											});
+						})();
+					</script> -->
